@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">FinalTeamProject</string>
+    <string name="app_name">Grow With Me Professor</string>
+    <string name="app_name_short">GWMP</string>
+    <string name="login">Login</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="email_field">Email</string>
+    <string name="password_field">Password</string>
+    <string name="password_match_field">Re-Enter Password</string>
+    <string name="student_sign_up">Student Sign Up</string>
+    <string name="teacher_sign_up">Teacher Sign Up</string>
 </resources>
