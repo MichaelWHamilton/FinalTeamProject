@@ -9,4 +9,24 @@
     <string name="password_match_field">Re-Enter Password</string>
     <string name="student_sign_up">Student Sign Up</string>
     <string name="teacher_sign_up">Teacher Sign Up</string>
+    <string name="quality">Quality</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="overall">Overall</string>
+    <string name="written_review">Leave a review here…</string>
+    <string name="tag_label">Tags:</string>
+    <string name="tag_x">Tag #</string>
+    <string name="top_tags">Professor's Top Tags:</string>
+    <string name="received_credit">Received Credit?</string>
+    <string name="online_course">Online Course?</string>
+    <string name="textbook_required">Textbook Required?</string>
+    <string name="attendance_required">Attendance Taken?</string>
+    <string name="first_attempt">First Attempt?</string>
+    <string name="homework">Homework?</string>
+    <string name="tough_grader">Tough Grader?</string>
+    <string name="approachable">Approachable?</string>
+    <string name="suggestion_checkbox">Leave a suggestion?</string>
+    <string name="written_suggestion">Leave a suggestion for the professor here…</string>
+    <string name="submit">Submit</string>
+    <string name="grade_received">Grade Received? (0–100)</string>
+    <string name="check_box_prompt">Check box for yes</string>
 </resources>
