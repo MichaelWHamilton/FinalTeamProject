@@ -32,9 +32,7 @@
                     style="@style/customRatingBar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:max="5"
-                    android:numStars="5" />
+                    android:layout_gravity="center" />
 
                 <TextView
                     android:id="@+id/textView2"

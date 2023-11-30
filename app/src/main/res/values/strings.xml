@@ -12,6 +12,7 @@
     <string name="quality">Quality</string>
     <string name="difficulty">Difficulty</string>
     <string name="overall">Overall</string>
+    <string name="accessible">Accessible</string>
     <string name="written_review">Leave a review here…</string>
     <string name="written_review_placeholder">Written review will appear here…</string>
     <string name="tag_label">Tags:</string>
