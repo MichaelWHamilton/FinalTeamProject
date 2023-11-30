@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:foregroundGravity="left">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -209,8 +210,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="@string/written_review"
-                android:minHeight="100dp"
-                 />
+                android:minHeight="100dp" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <RadioGroup
@@ -261,6 +261,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/GradeReceived_constraintLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintTop_toBottomOf="@id/suggestion_textInputLayout">
@@ -269,16 +270,21 @@
                 android:id="@+id/percentTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_marginStart="88dp"
                 android:text=" % "
                 android:textSize="18sp"
-                app:layout_constraintStart_toEndOf="@id/gradeReceivedTextView" />
+                app:layout_constraintStart_toEndOf="@id/gradeReceivedTextView"
+                tools:layout_editor_absoluteY="16dp" />
 
             <TextView
                 android:id="@+id/gradeReceivedTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+
                 android:text="@string/grade_received"
-                android:textSize="18sp" />
+                android:textSize="18sp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="16dp" />
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="wrap_content"
@@ -288,9 +294,20 @@
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="hint" />
+                    android:background="#F4F1F1"
+                    android:hint="50..." />
             </com.google.android.material.textfield.TextInputLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="200dp"
+            android:text="@string/submit"
+            app:layout_constraintEnd_toEndOf="@id/GradeReceived_constraintLayout"
+            app:layout_constraintStart_toStartOf="@id/GradeReceived_constraintLayout"
+            app:layout_constraintTop_toBottomOf="@id/GradeReceived_constraintLayout" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
