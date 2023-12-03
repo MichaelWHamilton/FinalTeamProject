@@ -32,4 +32,7 @@
     <string name="submit">Submit</string>
     <string name="grade_received">Grade Received? (0–100)</string>
     <string name="check_box_prompt">Check box for yes</string>
+    <string name="recent_ratings">Recent Ratings</string>
+    <string name="rate_prof_button">Rate Professors</string>
+    <string name="view_prof_button">View Professors</string>
 </resources>
